@@ -1,0 +1,30 @@
+.contener
+{
+    background-color: rgb(134, 54, 54);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 10px 0px ;
+}
+button
+{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px darkblue;
+}
+button:hover
+{
+background-color: rgb(17, 202, 10);
+color: darkviolet;
+cursor: pointer;
+}
+body{
+    align-items: center;
+    display: flex;
+   flex-direction: column; 
+   background: linear-gradient(to right, rgb(23, 31, 142), rgb(243, 43, 123) 50%, rgb(23, 31, 142));
+}
+
+
