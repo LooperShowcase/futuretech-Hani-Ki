@@ -1,30 +1,39 @@
-.contener
-{
+.container {
     background-color: rgb(134, 54, 54);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    border-radius: 10px 0px ;
+    width: 90%; /* Adjust the width as per your preference */
+    border-radius: 10px;
+    margin: 0 auto; /* Center the container horizontally */
 }
-button
-{
+
+button {
     background-color: antiquewhite;
     border-radius: 15px;
     box-shadow: 0px 0px 25px darkblue;
+    width: 100%; /* Make the button fill the container width */
+    margin-top: 10px; /* Add some spacing between buttons */
+    margin-bottom: 10px; /* Add some spacing between buttons */
 }
-button:hover
-{
-background-color: rgb(17, 202, 10);
-color: darkviolet;
-cursor: pointer;
+
+button:hover {
+    background-color: rgb(17, 202, 10);
+    color: darkviolet;
+    cursor: pointer;
 }
-body{
+
+body {
     align-items: center;
     display: flex;
-   flex-direction: column; 
-   background: linear-gradient(to right, rgb(23, 31, 142), rgb(243, 43, 123) 50%, rgb(23, 31, 142));
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(23, 31, 142), rgb(243, 43, 123) 50%, rgb(23, 31, 142));
 }
 
-
+/* Media Query for screens with a maximum width of 768 pixels */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust the width as per your preference */
+    }
+}
